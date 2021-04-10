@@ -6,7 +6,7 @@ ELEC 391 Design Project. Miniature Wind Turbine, hand wound generator, 3D printe
 
 fig.1 Windmill in question
 
-For the PCB, Altium designer was used, and ordered off of an online PCB manufacturer in china. 
+For the PCB, Altium designer was used, and ordered off of an online PCB manufacturer in china. Voltmeter uses a voltage follower and Ammeter uses Shunt resistor with a differential amplifier.
 
 ![image](https://user-images.githubusercontent.com/32754336/114273364-99592100-99ce-11eb-9cb8-b77d54caa7c2.png)
 
@@ -16,4 +16,7 @@ For the MPPT algo, we used P&O which is state dependent. checks previous power a
 
 ![image](https://user-images.githubusercontent.com/32754336/114273725-1df86f00-99d0-11eb-922b-6fbeccd57451.png)
 
-The MPPT algo is modeled on matLAB using a special function block. 
+The MPPT algo is modeled on matLAB using a special function block:
+
+![image](https://user-images.githubusercontent.com/32754336/114274010-62d0d580-99d1-11eb-8e26-3a301c90f774.png)
+
